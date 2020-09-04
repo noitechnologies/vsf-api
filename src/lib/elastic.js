@@ -264,7 +264,6 @@ function putMappings (db, indexName, next) {
   let attributeSchema = loadSchema('attribute', '5.6');
   let pageSchema = loadSchema('cms_page', '5.6');
   let blockSchema = loadSchema('cms_block', '5.6');
-  let reviewSchema = loadSchema('review', '5.6');
 
   Promise.all([
     db.indices.putMapping({
@@ -296,11 +295,6 @@ function putMappings (db, indexName, next) {
       index: indexName,
       type: 'category',
       body: categorySchema
-    }),
-    db.indices.putMapping({
-      index: indexName,
-      type: 'review',
-      body: reviewSchema
     })
   ]).then(values => values.forEach(res => console.dir(res.body, { depth: null, colors: true })))
     .then(next)
