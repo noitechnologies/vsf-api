@@ -261,6 +261,7 @@ function putMappings (db, indexName, next) {
   let productSchema = loadSchema('product', '5.6');
   let categorySchema = loadSchema('category', '5.6');
   let taxruleSchema = loadSchema('taxrule', '5.6');
+  let reviewSchema = loadSchema('taxrule', '5.6');
   let attributeSchema = loadSchema('attribute', '5.6');
   let pageSchema = loadSchema('cms_page', '5.6');
   let blockSchema = loadSchema('cms_block', '5.6');
@@ -275,6 +276,11 @@ function putMappings (db, indexName, next) {
       index: indexName,
       type: 'taxrule',
       body: taxruleSchema
+    }),
+    db.indices.putMapping({
+      index: indexName,
+      type: 'review',
+      body: reviewSchema
     }),
     db.indices.putMapping({
       index: indexName,

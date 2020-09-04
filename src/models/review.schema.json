@@ -15,7 +15,7 @@
       ],
       "properties": {
         "product_id": {
-          "type": "integer"
+          "type": "string"
         },
         "title": {
           "type": "string"
