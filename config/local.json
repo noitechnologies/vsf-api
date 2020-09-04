@@ -158,7 +158,7 @@
       "name": "German Store",
       "url": "/de",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "localhost:8090/api/catalog",
         "index": "vue_storefront_catalog_de"
       },
       "msi": {
@@ -193,7 +193,7 @@
       "name": "Italian Store",
       "url": "/it",
       "elasticsearch": {
-        "host": "localhost:8080/api/catalog",
+        "host": "localhost:8090/api/catalog",
         "index": "vue_storefront_catalog_it"
       },
       "msi": {
@@ -255,7 +255,8 @@
     "example-processor",
     "example-custom-filter",
     "elastic-stock",
-    "payment-razorpay"
+    "payment-razorpay",
+    "paypal"
   ],
   "extensions": {
     "mailchimp": {
@@ -284,8 +285,16 @@
       "catalogFilter": [ "SampleFilter" ]
     },
     "razorpay": {
-	 "key": "rzp_test_5bKWiDyl81rFiN",
-	 "keySecret": "FF66YSEUQzwXqViULq17uPk9"
+      "key": "rzp_test_5bKWiDyl81rFiN",
+      "keySecret": "FF66YSEUQzwXqViULq17uPk9"
+    },
+    "paypal": {
+      "env": "sandbox",
+      "clientId": "AW894VFGZ9E4oV29ztE6GTDK7PU_UJEDenzzsPmjkUAuVLyfc1ekRk4p8LbqZ-Wpl_9ROqAsSwet_NrX",
+      "secret": "EEH2P_GrnRfWlV248r_kQNypliufyeWg4IrfqsTa1WiqlNSUBUgBBGcl0_LJ2lz4mcxKOl0u5XsSZkxx",
+      "username": "sb-rk8ji3117859_api1.business.example.com",
+      "password": "2RKJUH4765VAYL4M",
+      "signature": "A89tEzSarP5ChROqU90p7YFbwYMNAAqHi9CO3O1g5FnQDrNRoKYUGL5K"
     }
   },
   "magento2": {
