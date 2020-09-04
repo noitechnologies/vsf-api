@@ -12,7 +12,6 @@
        "color": {"type": "integer"},
        "color_options": {"type": "integer"},
        "pattern": {"type": "text"},
-       "id": {"type": "long"},
        "status": {"type": "integer"},
        "weight": {"type": "integer"},
        "visibility": {"type": "integer"},
@@ -69,7 +68,6 @@
                 }
             }
         },
-       "category_ids": {"type": "long"},
        "eco_collection": {"type": "integer"},
        "eco_collection_options": {"type": "integer"},
        "erin_recommends": {"type": "integer"},
