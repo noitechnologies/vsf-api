@@ -1,5 +1,7 @@
 {
    "properties": {
+       "id": {"type": "text"},
+       "parent_id": {"type": "text"},
        "url_key": {"type": "keyword"},
        "url_path": {"type": "keyword"},
        "slug": {"type": "keyword"},

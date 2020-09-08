@@ -12,6 +12,7 @@
        "color": {"type": "integer"},
        "color_options": {"type": "integer"},
        "pattern": {"type": "text"},
+       "id": {"type": "text"},
        "status": {"type": "integer"},
        "weight": {"type": "integer"},
        "visibility": {"type": "integer"},
@@ -43,6 +44,7 @@
        "name": {"type": "text"},
        "configurable_children": {
            "properties": {
+               "id": {"type": "text"},
                "url_key": {"type": "keyword"},
                "sku": {"type": "keyword"},
                "has_options": {"type": "keyword"},
@@ -53,6 +55,7 @@
        "configurable_options": {
            "properties": {
                "attribute_id": {"type": "long"},
+               "id": {"type": "text"},
                "default_label": {"type": "text"},
                "label": {"type": "text"},
                "frontend_label": {"type": "text"},   
@@ -68,6 +71,7 @@
                 }
             }
         },
+        "category_ids": {"type": "text"},
        "eco_collection": {"type": "integer"},
        "eco_collection_options": {"type": "integer"},
        "erin_recommends": {"type": "integer"},
@@ -92,6 +96,11 @@
                         "label": {"type": "text"}
                     }
                 }
+            }
+        },
+        "stock": {
+            "properties": {
+                "product_id": {"type": "text"}
             }
         }
     }
