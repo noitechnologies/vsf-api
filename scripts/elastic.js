@@ -89,6 +89,18 @@ const es7RestoreCommand = (cmd) => {
   }
 }
 
+const es7RestoreSingleCommand = (cmd) => {
+    console.log("=======inside es7RestoreSingleCommand=======")
+    const output = `http://${config.host}:${config.port}/${cmd.outputIndex}`
+    const child = spawnSync('node', [
+      'node_modules/elasticdump/bin/elasticdump',
+      `--input=${cmd.inputFile}`,
+      `--output=${output}`
+    ])
+    stdOutErr(child.stdout, child.stderr)
+}
+
+
 program
   .command('restore')
   .option('--output-index <outputIndex>', 'index to restore', 'vue_storefront_catalog')
@@ -99,6 +111,38 @@ program
     } else {
       return es7RestoreCommand(cmd)
     }
+  })
+
+program
+  .command('restore-product')
+  .option('--output-index <outputIndex>', 'index to restore', 'vue_storefront_catalog_product')
+  .option('--input-file <inputFile>', 'path to the input file', 'var/catalog_product.json')
+  .action((cmd) => {
+    return es7RestoreSingleCommand(cmd)
+  }) 
+
+program
+  .command('restore-attribute')
+  .option('--output-index <outputIndex>', 'index to restore', 'vue_storefront_catalog_attribute')
+  .option('--input-file <inputFile>', 'path to the input file', 'var/catalog_attribute.json')
+  .action((cmd) => {
+    return es7RestoreSingleCommand(cmd)
+  }) 
+
+program
+  .command('restore-category')
+  .option('--output-index <outputIndex>', 'index to restore', 'vue_storefront_catalog_category')
+  .option('--input-file <inputFile>', 'path to the input file', 'var/catalog_category.json')
+  .action((cmd) => {
+    return es7RestoreSingleCommand(cmd)
+  }) 
+
+ program
+  .command('restore-review')
+  .option('--output-index <outputIndex>', 'index to restore', 'vue_storefront_catalog_review')
+  .option('--input-file <inputFile>', 'path to the input file', 'var/catalog_review.json')
+  .action((cmd) => {
+    return es7RestoreSingleCommand(cmd)
   })
 
 program
