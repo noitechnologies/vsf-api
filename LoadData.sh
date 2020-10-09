@@ -22,6 +22,10 @@ apiUrl="${2}categories?productStoreId=${3}"
 curl -X GET $apiUrl -H 'authorization: Basic YXBpLnVzZXI6Iyojc2FsZGlzdEAxMjM='   -H 'cache-control: no-cache'   -H 'content-type: application/json' | jq ".data[]" | jq  -M \ > catalog_category.json
 sed -i 's/"null"/null/g' catalog_category.json
 
+apiUrl="${2}reviews?productStoreId=${3}"
+curl -X GET $apiUrl -H 'authorization: Basic YXBpLnVzZXI6Iyojc2FsZGlzdEAxMjM='   -H 'cache-control: no-cache'   -H 'content-type: application/json' | jq ".data[]" | jq  -M \ > catalog_review.json
+sed -i 's/"null"/null/g' catalog_review.json
+
 echo "Dumping data into Elastic Server"
 
 cd ..
