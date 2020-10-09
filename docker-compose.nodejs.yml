@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: docker/vue-storefront-api/Dockerfile
     depends_on:
-      - es1
+      - es7
       - redis
     env_file: docker/vue-storefront-api/default.env
     environment:
@@ -25,5 +25,5 @@ services:
     tmpfs:
       - /var/www/dist
     ports:
-      - '8080:8080'
+      - '8090:8090'
       

@@ -42,7 +42,7 @@
       "taxrule",
       "review"
     ],
-    "apiVersion": "5.6",
+    "apiVersion": "7.1",
     "useRequestFilter": false,
     "overwriteRequestSourceParams": false,
     "requestParamsBlacklist": [],
