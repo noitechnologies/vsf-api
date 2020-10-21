@@ -26,6 +26,7 @@
     "restore-attribute": "cross-env TS_NODE_PROJECT=\"tsconfig-build.json\" && ts-node -r tsconfig-paths/register scripts/elastic.js restore-attribute",
     "restore-category": "cross-env TS_NODE_PROJECT=\"tsconfig-build.json\" && ts-node -r tsconfig-paths/register scripts/elastic.js restore-category",
     "restore-review": "cross-env TS_NODE_PROJECT=\"tsconfig-build.json\" && ts-node -r tsconfig-paths/register scripts/elastic.js restore-review",
+    "restore-cms_page": "cross-env TS_NODE_PROJECT=\"tsconfig-build.json\" && ts-node -r tsconfig-paths/register scripts/elastic.js restore-cms_page",
     "dump": "cross-env TS_NODE_PROJECT=\"tsconfig-build.json\" && ts-node -r tsconfig-paths/register scripts/elastic.js dump",
     "dump_it": "npm run dump -- --input-index=vue_storefront_catalog --output-file=var/catalog_it.json",
     "dump_de": "npm run dump -- --input-index=vue_storefront_catalog --output-file=var/catalog_de.json",

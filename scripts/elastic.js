@@ -146,6 +146,14 @@ program
   })
 
 program
+  .command('restore-cms_page')
+  .option('--output-index <outputIndex>', 'index to restore', 'vue_storefront_catalog_cms_page')
+  .option('--input-file <inputFile>', 'path to the input file', 'var/catalog_cms_page.json')
+  .action((cmd) => {
+    return es7RestoreSingleCommand(cmd)
+  })
+
+program
   .on('command:*', () => {
     console.error('Invalid command: %s\nSee --help for a list of available commands.', program.args.join(' '));
     process.exit(1);

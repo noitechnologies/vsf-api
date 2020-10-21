@@ -28,6 +28,10 @@ if [ $4 = 'all' ]; then
   curl -X GET $apiUrl -H 'authorization: Basic YXBpLnVzZXI6Iyojc2FsZGlzdEAxMjM='   -H 'cache-control: no-cache'   -H 'content-type: application/json' | jq ".data[]" | jq  -M \ > catalog_review.json
   sed -i 's/"null"/null/g' catalog_review.json
 
+  apiUrl="${2}cms-pages?productStoreId=${3}"
+  curl -X GET $apiUrl -H 'authorization: Basic YXBpLnVzZXI6Iyojc2FsZGlzdEAxMjM='   -H 'cache-control: no-cache'   -H 'content-type: application/json' | jq ".data[]" | jq  -M \ > catalog_cms_page.json
+  sed -i 's/"null"/null/g' catalog_cms_page.json
+
   cd ..
 
   echo "Dumping all into Elastic Server"
@@ -60,6 +64,16 @@ if [ $4 = 'all' ]; then
     else
       echo "product review id is empty"
       apiUrl="${2}reviews?productStoreId=${3}"
+    fi
+  fi
+
+  if [ $4 = 'cms_page' ]; then
+    if [ ! -z "$5" ]; then
+      echo "website content id is not empty" 
+      apiUrl="${2}cms-pages?productStoreId=${3}&websiteContentId=${5}"
+    else
+      echo "website content id is empty"
+      apiUrl="${2}cms-pages?productStoreId=${3}"
     fi
   fi
   
