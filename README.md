@@ -78,6 +78,8 @@ To start the Elastic 7 docker service please use the `docker-compose.elastic7.ym
 
 ```bash
 docker-compose -f docker-compose.elastic7.yml up
+yarn install
+yarn dev
 ```
 
 Then, please do change the `config/local.json` to start using the new Elastic API. Key properties in the `elasticsearch` section are: `indexTypes` and `apiVersion` (to be set to 7.1). If you're using the multistore configuration please make sure you adjusted the `storeViews.*.elasticsearch` section as well - per each separate store.
