@@ -1,0 +1,3283 @@
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "146",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 146,
+    "attribute_code": "new",
+    "frontend_input": "boolean",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "No",
+        "value": "0"
+      },
+      {
+        "label": "Yes",
+        "value": "1"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "New",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Boolean",
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "146",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "147",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 147,
+    "attribute_code": "sale",
+    "frontend_input": "boolean",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "No",
+        "value": "0"
+      },
+      {
+        "label": "Yes",
+        "value": "1"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Sale",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Boolean",
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "147",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "75",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": true,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "1",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 75,
+    "attribute_code": "description",
+    "frontend_input": "textarea",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Description",
+    "frontend_labels": null,
+    "backend_type": "text",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "75",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "88",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 88,
+    "attribute_code": "small_image",
+    "frontend_input": "media_image",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Small",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "88",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "108",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 108,
+    "attribute_code": "has_options",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Small",
+    "frontend_labels": null,
+    "backend_type": "static",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "108",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "91",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 91,
+    "attribute_code": "old_id",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": null,
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "91",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "124",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "bundle"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 124,
+    "attribute_code": "sku_type",
+    "frontend_input": "boolean",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Dynamic SKU",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "124",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "112",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "bundle"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 112,
+    "attribute_code": "created_at",
+    "frontend_input": "date",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": null,
+    "frontend_labels": null,
+    "backend_type": "static",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "112",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "83",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple"
+    ],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "1",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 83,
+    "attribute_code": "manufacturer",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": " ",
+        "value": "01"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Manufacturer",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "83",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "92",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "bundle",
+      "downloadable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "website",
+    "attribute_id": 92,
+    "attribute_code": "tier_price",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Tier Price",
+    "frontend_labels": null,
+    "backend_type": "decimal",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Tierprice",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "92",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "76",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": true,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "1",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 76,
+    "attribute_code": "short_description",
+    "frontend_input": "textarea",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Short Description",
+    "frontend_labels": null,
+    "backend_type": "text",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "76",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "84",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 84,
+    "attribute_code": "meta_title",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Meta Title",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "84",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "96",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 96,
+    "attribute_code": "gallery",
+    "frontend_input": "gallery",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Image Gallery",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "96",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "120",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": false,
+    "scope": "store",
+    "attribute_id": 120,
+    "attribute_code": "url_path",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": null,
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "120",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "110",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": false,
+    "scope": "store",
+    "attribute_id": 110,
+    "attribute_code": "small_image_label",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Small Image Label",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "110",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "133",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 133,
+    "attribute_code": "swatch_image",
+    "frontend_input": "media_image",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Swatch",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "133",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "113",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 113,
+    "attribute_code": "updated_at",
+    "frontend_input": "date",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": null,
+    "frontend_labels": null,
+    "backend_type": "static",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "113",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "132",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 132,
+    "attribute_code": "gift_message_available",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "No",
+        "value": "0"
+      },
+      {
+        "label": "Yes",
+        "value": "1"
+      },
+      {
+        "label": "Use config",
+        "value": "2"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Allow Gift Message",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Source\\Boolean",
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Boolean",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "132",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "107",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 107,
+    "attribute_code": "required_options",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": null,
+    "frontend_labels": null,
+    "backend_type": "static",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "107",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "94",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "website",
+    "attribute_id": 94,
+    "attribute_code": "news_from_date",
+    "frontend_input": "date",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Set Product as New from Date",
+    "frontend_labels": null,
+    "backend_type": "datetime",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Attribute\\Backend\\Startdate",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "94",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "79",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "bundle",
+      "downloadable",
+      "configurable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "website",
+    "attribute_id": 79,
+    "attribute_code": "special_from_date",
+    "frontend_input": "date",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Special Price From Date",
+    "frontend_labels": null,
+    "backend_type": "datetime",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Attribute\\Backend\\Startdate",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "79",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "74",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "1",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 74,
+    "attribute_code": "sku",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "SKU",
+    "frontend_labels": null,
+    "backend_type": "static",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Sku",
+    "default_value": " ",
+    "is_unique": "1",
+    "validation_rules": [],
+    "id": "74",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "85",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 85,
+    "attribute_code": "meta_keyword",
+    "frontend_input": "textarea",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Meta Keywords",
+    "frontend_labels": null,
+    "backend_type": "text",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "85",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "119",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 119,
+    "attribute_code": "url_key",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "URL Key",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "119",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "111",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": false,
+    "scope": "store",
+    "attribute_id": 111,
+    "attribute_code": "thumbnail_label",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Thumbnail Label",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "111",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "130",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "downloadable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": false,
+    "scope": "store",
+    "attribute_id": 130,
+    "attribute_code": "links_title",
+    "frontend_input": null,
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Links title",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "130",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "87",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 87,
+    "attribute_code": "image",
+    "frontend_input": "media_image",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Base",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "87",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "89",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 89,
+    "attribute_code": "thumbnail",
+    "frontend_input": "media_image",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Thumbnail",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "89",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "90",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 90,
+    "attribute_code": "media_gallery",
+    "frontend_input": "gallery",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Media Gallery",
+    "frontend_labels": null,
+    "backend_type": "static",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "90",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "109",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "1",
+    "used_in_product_listing": "1",
+    "is_visible": false,
+    "scope": "store",
+    "attribute_id": 109,
+    "attribute_code": "image_label",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Image Label",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "109",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "123",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "bundle"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 123,
+    "attribute_code": "price_type",
+    "frontend_input": "boolean",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Dynamic Price",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "123",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "122",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "downloadable",
+      "bundle",
+      "configurable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "website",
+    "attribute_id": 122,
+    "attribute_code": "msrp_display_actual_price_type",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "Use config",
+        "value": "0"
+      },
+      {
+        "label": "On Gesture",
+        "value": "1"
+      },
+      {
+        "label": "In Cart",
+        "value": "2"
+      },
+      {
+        "label": "Before Order Confirmation",
+        "value": "3"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Display Actual Price",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Msrp\\Model\\Product\\Attribute\\Source\\Type\\Price",
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Boolean",
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "122",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "104",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 104,
+    "attribute_code": "page_layout",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "No layout updates",
+        "value": "01"
+      },
+      {
+        "label": "No layout updates",
+        "value": "02"
+      },
+      {
+        "label": "1 column",
+        "value": "1column"
+      },
+      {
+        "label": "2 columns with left bar",
+        "value": "2columns-left"
+      },
+      {
+        "label": "2 columns with right bar",
+        "value": "2columns-right"
+      },
+      {
+        "label": "3 columns",
+        "value": "3columns"
+      },
+      {
+        "label": "Empty",
+        "value": "empty"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Layout",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Source\\Layout",
+    "backend_model": null,
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "104",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "73",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": true,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "1",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 73,
+    "attribute_code": "name",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Product Name",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "73",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "78",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": true,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "bundle",
+      "downloadable",
+      "configurable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 78,
+    "attribute_code": "special_price",
+    "frontend_input": "price",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Special Price",
+    "frontend_labels": null,
+    "backend_type": "decimal",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price",
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "78",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "115",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 115,
+    "attribute_code": "quantity_and_stock_status",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "Out of Stock",
+        "value": "0"
+      },
+      {
+        "label": "In Stock",
+        "value": "1"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Quantity",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\CatalogInventory\\Model\\Source\\Stock",
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Stock",
+    "default_value": "1",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "115",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "97",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "website",
+    "attribute_id": 97,
+    "attribute_code": "status",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "Enabled",
+        "value": "1"
+      },
+      {
+        "label": "ODisabled",
+        "value": "2"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Enable Product",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Source\\Status",
+    "backend_model": null,
+    "default_value": "1",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "97",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "116",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 116,
+    "attribute_code": "custom_layout",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "New Layout",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Source\\Layout",
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "116",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "125",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "bundle"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 125,
+    "attribute_code": "weight_type",
+    "frontend_input": "boolean",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Dynamic Weight",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "125",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "127",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "bundle"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 127,
+    "attribute_code": "shipment_type",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [
+      {
+        "label": "Together",
+        "value": "0"
+      },
+      {
+        "label": "Separately",
+        "value": "1"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Ship Bundle Items",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Bundle\\Model\\Product\\Attribute\\Source\\Shipment\\Type",
+    "backend_model": null,
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "127",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "81",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "downloadable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 81,
+    "attribute_code": "cost",
+    "frontend_input": "price",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": true,
+    "default_frontend_label": "Cost",
+    "frontend_labels": null,
+    "backend_type": "decimal",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "81",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "77",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": true,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "downloadable",
+      "bundle",
+      "configurable"
+    ],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "1",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 77,
+    "attribute_code": "price",
+    "frontend_input": "price",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Price",
+    "frontend_labels": null,
+    "backend_type": "decimal",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "77",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "129",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "downloadable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": false,
+    "scope": "store",
+    "attribute_id": 129,
+    "attribute_code": "samples_title",
+    "frontend_input": null,
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Samples title",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "129",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "128",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "downloadable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 128,
+    "attribute_code": "links_purchased_separately",
+    "frontend_input": null,
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Links can be purchased separately",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "128",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "134",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "bundle",
+      "downloadable",
+      "configurable",
+      "virtual"
+    ],
+    "is_searchable": "1",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "website",
+    "attribute_id": 134,
+    "attribute_code": "tax_class_id",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "None",
+        "value": "0"
+      },
+      {
+        "label": "Taxable Goods",
+        "value": "2"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Tax Class",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Tax\\Model\\TaxClass\\Source\\Product",
+    "backend_model": null,
+    "default_value": "2",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "134",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "105",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 105,
+    "attribute_code": "category_ids",
+    "frontend_input": "text",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Categories",
+    "frontend_labels": null,
+    "backend_type": "static",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Category",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "105",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "106",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 106,
+    "attribute_code": "options_container",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "Product Info Column",
+        "value": "container1"
+      },
+      {
+        "label": "Block after Info Column",
+        "value": "container2"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Display Product Options In",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Catalog\\Model\\Entity\\Product\\Attribute\\Design\\Options\\Container",
+    "backend_model": null,
+    "default_value": "container2",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "106",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "131",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "downloadable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 131,
+    "attribute_code": "links_exist",
+    "frontend_input": null,
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": null,
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": null,
+    "backend_model": null,
+    "default_value": "0",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "131",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "121",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "downloadable",
+      "bundle",
+      "configurable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 121,
+    "attribute_code": "msrp",
+    "frontend_input": "price",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Manufacturer's Suggested Retail Price",
+    "frontend_labels": null,
+    "backend_type": "decimal",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "121",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "98",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "bundle",
+      "downloadable",
+      "configurable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": false,
+    "scope": "global",
+    "attribute_id": 98,
+    "attribute_code": "minimal_price",
+    "frontend_input": "price",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Minimal Price",
+    "frontend_labels": null,
+    "backend_type": "decimal",
+    "source_model": null,
+    "backend_model": "Magento\\Catalog\\Model\\Product\\Attribute\\Backend\\Price",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "98",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "95",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "simple",
+      "virtual",
+      "bundle",
+      "downloadable",
+      "configurable"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "website",
+    "attribute_id": 95,
+    "attribute_code": "news_to_date",
+    "frontend_input": "date",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [],
+    "is_user_defined": false,
+    "default_frontend_label": "Set Product as New to Date",
+    "frontend_labels": null,
+    "backend_type": "datetime",
+    "source_model": null,
+    "backend_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\Datetime",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "95",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "99",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "store",
+    "attribute_id": 99,
+    "attribute_code": "visibility",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "Not Visible Individually",
+        "value": "1"
+      },
+      {
+        "label": "Catalog",
+        "value": "2"
+      },
+      {
+        "label": "Search",
+        "value": "3"
+      },
+      {
+        "label": "Catalog, Search",
+        "value": "4"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Visibility",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Catalog\\Model\\Product\\Visibility",
+    "backend_model": null,
+    "default_value": "4",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "99",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "126",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": false,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [
+      "bundle"
+    ],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "0",
+    "is_used_for_promo_rules": "0",
+    "is_visible_on_front": "0",
+    "used_in_product_listing": "1",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 126,
+    "attribute_code": "price_view",
+    "frontend_input": "select",
+    "entity_type_id": 4,
+    "is_required": true,
+    "options": [
+      {
+        "label": "Price Range",
+        "value": "0"
+      },
+      {
+        "label": "As Low as",
+        "value": "1"
+      }
+    ],
+    "is_user_defined": false,
+    "default_frontend_label": "Price View",
+    "frontend_labels": null,
+    "backend_type": "int",
+    "source_model": "Magento\\Bundle\\Model\\Product\\Attribute\\Source\\Price\\View",
+    "backend_model": null,
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "126",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "200",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "1",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 200,
+    "attribute_code": "rin",
+    "frontend_input": "multiselect",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "10",
+        "value": "10"
+      },
+      {
+        "label": "12",
+        "value": "12"
+      },
+      {
+        "label": "13",
+        "value": "13"
+      },
+      {
+        "label": "14",
+        "value": "14"
+      },
+      {
+        "label": "15",
+        "value": "15"
+      },
+      {
+        "label": "16",
+        "value": "16"
+      },
+      {
+        "label": "16.5",
+        "value": "16.5"
+      },
+      {
+        "label": "17",
+        "value": "17"
+      },
+      {
+        "label": "17.5",
+        "value": "17.5"
+      },
+      {
+        "label": "18",
+        "value": "18"
+      },
+      {
+        "label": "19",
+        "value": "19"
+      },
+      {
+        "label": "19.5",
+        "value": "19.5"
+      },
+      {
+        "label": "20",
+        "value": "20"
+      },
+      {
+        "label": "21",
+        "value": "21"
+      },
+      {
+        "label": "22",
+        "value": "22"
+      },
+      {
+        "label": "22.5",
+        "value": "22.5"
+      },
+      {
+        "label": "23",
+        "value": "23"
+      },
+      {
+        "label": "24",
+        "value": "24"
+      },
+      {
+        "label": "25",
+        "value": "25"
+      },
+      {
+        "label": "26",
+        "value": "26"
+      },
+      {
+        "label": "28",
+        "value": "28"
+      },
+      {
+        "label": "30",
+        "value": "30"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Rin",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+    "backend_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\ArrayBackend",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "200",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "202",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "1",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 202,
+    "attribute_code": "ancho",
+    "frontend_input": "multiselect",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "07",
+        "value": "07"
+      },
+      {
+        "label": "08",
+        "value": "08"
+      },
+      {
+        "label": "105",
+        "value": "105"
+      },
+      {
+        "label": "115",
+        "value": "115"
+      },
+      {
+        "label": "125",
+        "value": "125"
+      },
+      {
+        "label": "135",
+        "value": "135"
+      },
+      {
+        "label": "145",
+        "value": "145"
+      },
+      {
+        "label": "155",
+        "value": "155"
+      },
+      {
+        "label": "165",
+        "value": "165"
+      },
+      {
+        "label": "175",
+        "value": "175"
+      },
+      {
+        "label": "185",
+        "value": "185"
+      },
+      {
+        "label": "195",
+        "value": "195"
+      },
+      {
+        "label": "205",
+        "value": "205"
+      },
+      {
+        "label": "215",
+        "value": "215"
+      },
+      {
+        "label": "225",
+        "value": "225"
+      },
+      {
+        "label": "235",
+        "value": "235"
+      },
+      {
+        "label": "245",
+        "value": "245"
+      },
+      {
+        "label": "24X",
+        "value": "24X"
+      },
+      {
+        "label": "255",
+        "value": "255"
+      },
+      {
+        "label": "25X",
+        "value": "25X"
+      },
+      {
+        "label": "265",
+        "value": "265"
+      },
+      {
+        "label": "26X",
+        "value": "26X"
+      },
+      {
+        "label": "275",
+        "value": "275"
+      },
+      {
+        "label": "27X",
+        "value": "27X"
+      },
+      {
+        "label": "285",
+        "value": "285"
+      },
+      {
+        "label": "295",
+        "value": "295"
+      },
+      {
+        "label": "29X",
+        "value": "29X"
+      },
+      {
+        "label": "305",
+        "value": "305"
+      },
+      {
+        "label": "30X",
+        "value": "30X"
+      },
+      {
+        "label": "315",
+        "value": "315"
+      },
+      {
+        "label": "31X",
+        "value": "31X"
+      },
+      {
+        "label": "325",
+        "value": "325"
+      },
+      {
+        "label": "32X",
+        "value": "32X"
+      },
+      {
+        "label": "335",
+        "value": "335"
+      },
+      {
+        "label": "33X",
+        "value": "33X"
+      },
+      {
+        "label": "345",
+        "value": "345"
+      },
+      {
+        "label": "34X",
+        "value": "34X"
+      },
+      {
+        "label": "355",
+        "value": "355"
+      },
+      {
+        "label": "35X",
+        "value": "35X"
+      },
+      {
+        "label": "36X",
+        "value": "36X"
+      },
+      {
+        "label": "375",
+        "value": "375"
+      },
+      {
+        "label": "37X",
+        "value": "37X"
+      },
+      {
+        "label": "38X",
+        "value": "38X"
+      },
+      {
+        "label": "395",
+        "value": "395"
+      },
+      {
+        "label": "39X",
+        "value": "39X"
+      },
+      {
+        "label": "405",
+        "value": "405"
+      },
+      {
+        "label": "40X",
+        "value": "40X"
+      },
+      {
+        "label": "42X",
+        "value": "42X"
+      },
+      {
+        "label": "6.40",
+        "value": "6.40"
+      },
+      {
+        "label": "7.5",
+        "value": "7.5"
+      },
+      {
+        "label": "8.75",
+        "value": "8.75"
+      },
+      {
+        "label": "9.5",
+        "value": "9.5"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Ancho",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+    "backend_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\ArrayBackend",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "202",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "203",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "1",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 203,
+    "attribute_code": "carga",
+    "frontend_input": "multiselect",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "102",
+        "value": "102"
+      },
+      {
+        "label": "107",
+        "value": "107"
+      },
+      {
+        "label": "88",
+        "value": "88"
+      },
+      {
+        "label": "95",
+        "value": "95"
+      },
+      {
+        "label": "97",
+        "value": "97"
+      },
+      {
+        "label": "98",
+        "value": "98"
+      },
+      {
+        "label": "99",
+        "value": "99"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Carga",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+    "backend_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\ArrayBackend",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "203",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "204",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "1",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 204,
+    "attribute_code": "velocidad",
+    "frontend_input": "multiselect",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "105",
+        "value": "105"
+      },
+      {
+        "label": "107",
+        "value": "107"
+      },
+      {
+        "label": "95",
+        "value": "95"
+      },
+      {
+        "label": "H",
+        "value": "H"
+      },
+      {
+        "label": "L",
+        "value": "L"
+      },
+      {
+        "label": "M",
+        "value": "M"
+      },
+      {
+        "label": "N",
+        "value": "N"
+      },
+      {
+        "label": "NHS",
+        "value": "NHS"
+      },
+      {
+        "label": "Q",
+        "value": "Q"
+      },
+      {
+        "label": "R",
+        "value": "R"
+      },
+      {
+        "label": "S",
+        "value": "S"
+      },
+      {
+        "label": "T",
+        "value": "T"
+      },
+      {
+        "label": "V",
+        "value": "V"
+      },
+      {
+        "label": "W",
+        "value": "W"
+      },
+      {
+        "label": "Y",
+        "value": "Y"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Velocidad",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+    "backend_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\ArrayBackend",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "204",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "205",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "1",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 205,
+    "attribute_code": "runflat",
+    "frontend_input": "multiselect",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "No",
+        "value": "No"
+      },
+      {
+        "label": "Si",
+        "value": "Si"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Runflat",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+    "backend_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\ArrayBackend",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "205",
+    "tsk": 1656507030410
+  }
+}
+{
+  "_index": "vue_storefront_catalog",
+  "_type": "attribute",
+  "_id": "206",
+  "_score": "1",
+  "_source": {
+    "is_wysiwyg_enabled": false,
+    "is_html_allowed_on_front": true,
+    "used_for_sort_by": false,
+    "is_filterable": true,
+    "is_filterable_in_search": true,
+    "is_used_in_grid": true,
+    "is_visible_in_grid": true,
+    "is_filterable_in_grid": true,
+    "position": 0,
+    "apply_to": [],
+    "is_searchable": "0",
+    "is_visible_in_advanced_search": "0",
+    "is_comparable": "1",
+    "is_used_for_promo_rules": "1",
+    "is_visible_on_front": "1",
+    "used_in_product_listing": "0",
+    "is_visible": true,
+    "scope": "global",
+    "attribute_id": 206,
+    "attribute_code": "serie",
+    "frontend_input": "multiselect",
+    "entity_type_id": 4,
+    "is_required": false,
+    "options": [
+      {
+        "label": "0",
+        "value": "0"
+      },
+      {
+        "label": "10.5",
+        "value": "10.5"
+      },
+      {
+        "label": "11.5",
+        "value": "11.5"
+      },
+      {
+        "label": "12.5",
+        "value": "12.5"
+      },
+      {
+        "label": "13.5",
+        "value": "13.5"
+      },
+      {
+        "label": "14",
+        "value": "14"
+      },
+      {
+        "label": "14.5",
+        "value": "14.5"
+      },
+      {
+        "label": "15.5",
+        "value": "15.5"
+      },
+      {
+        "label": "16.5",
+        "value": "16.5"
+      },
+      {
+        "label": "18.5",
+        "value": "18.5"
+      },
+      {
+        "label": "20",
+        "value": "20"
+      },
+      {
+        "label": "25",
+        "value": "25"
+      },
+      {
+        "label": "30",
+        "value": "30"
+      },
+      {
+        "label": "35",
+        "value": "35"
+      },
+      {
+        "label": "40",
+        "value": "40"
+      },
+      {
+        "label": "45",
+        "value": "45"
+      },
+      {
+        "label": "50",
+        "value": "50"
+      },
+      {
+        "label": "55",
+        "value": "55"
+      },
+      {
+        "label": "60",
+        "value": "60"
+      },
+      {
+        "label": "65",
+        "value": "65"
+      },
+      {
+        "label": "7.5",
+        "value": "7.5"
+      },
+      {
+        "label": "70",
+        "value": "70"
+      },
+      {
+        "label": "75",
+        "value": "75"
+      },
+      {
+        "label": "8.5",
+        "value": "8.5"
+      },
+      {
+        "label": "80",
+        "value": "80"
+      },
+      {
+        "label": "85",
+        "value": "85"
+      },
+      {
+        "label": "9.5",
+        "value": "9.5"
+      },
+      {
+        "label": "90",
+        "value": "90"
+      },
+      {
+        "label": "95",
+        "value": "95"
+      }
+    ],
+    "is_user_defined": true,
+    "default_frontend_label": "Serie",
+    "frontend_labels": null,
+    "backend_type": "varchar",
+    "source_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Source\\Table",
+    "backend_model": "Magento\\Eav\\Model\\Entity\\Attribute\\Backend\\ArrayBackend",
+    "default_value": " ",
+    "is_unique": "0",
+    "validation_rules": [],
+    "id": "206",
+    "tsk": 1656507030410
+  }
+}
